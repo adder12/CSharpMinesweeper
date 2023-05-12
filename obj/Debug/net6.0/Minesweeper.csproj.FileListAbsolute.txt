@@ -1,0 +1,15 @@
+I:\Programming storage\C#\Minesweeper\bin\Debug\net6.0\Minesweeper.exe
+I:\Programming storage\C#\Minesweeper\bin\Debug\net6.0\Minesweeper.deps.json
+I:\Programming storage\C#\Minesweeper\bin\Debug\net6.0\Minesweeper.runtimeconfig.json
+I:\Programming storage\C#\Minesweeper\bin\Debug\net6.0\Minesweeper.dll
+I:\Programming storage\C#\Minesweeper\bin\Debug\net6.0\Minesweeper.pdb
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.csproj.AssemblyReference.cache
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.AssemblyInfoInputs.cache
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.AssemblyInfo.cs
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.csproj.CoreCompileInputs.cache
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.dll
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\refint\Minesweeper.dll
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.pdb
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\Minesweeper.genruntimeconfig.cache
+I:\Programming storage\C#\Minesweeper\obj\Debug\net6.0\ref\Minesweeper.dll
