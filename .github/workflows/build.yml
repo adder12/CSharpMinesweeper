@@ -44,5 +44,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"adder12_CSharpMinesweeper" /o:"adder12" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          devenv "Minesweeper.sln" /rebuild Debug /project "Minesweeper.csproj"
+          dotnet "Minesweeper.sln" /rebuild Debug /project "Minesweeper.csproj"
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
