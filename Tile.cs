@@ -23,6 +23,8 @@ namespace Minesweeper {
         public int getYCoord() { return this.yCoord; }
         public int getStatus() { return this.status;}
 
+        public string getTileType() { return this.tileType; }
+
         public void setXCoord(int xCoord) {  this.xCoord = xCoord; } 
         public void setYCoord(int yCoord) {  this.yCoord = yCoord; }
         public void setStatus(int status) {  this.status = status; }
