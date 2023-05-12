@@ -5,18 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Minesweeper {
+
     internal class Tile {
-        public Tile(int x, int y) {
+        public Tile(int x, int y, String type) {
             this.xCoord = x; 
             this.yCoord = y;
             this.status = 0;
-
+            this.tileType = type;
         }
         public Tile() { }
        private int xCoord;
        private int yCoord;
        private int status;
-        pr
+        private  string tileType;
 
         public int getXCoord() { return this.xCoord; }
         public int getYCoord() { return this.yCoord; }
@@ -28,4 +29,5 @@ namespace Minesweeper {
 
 
     }
+  
 }
