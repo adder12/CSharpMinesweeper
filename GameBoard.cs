@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace Minesweeper {
     internal class GameBoard {
 
-        private int xSize;
-        private int ySize;
-        Tile[,] gameBoard;
+        private readonly int xSize;
+        private readonly int ySize;
+        readonly Tile[,]  gameBoard;
 
         public GameBoard(int x, int y) {
             this.xSize = x;
@@ -21,13 +21,13 @@ namespace Minesweeper {
         }
 
         public static Tile[,] generateBoard(int x, int y) {
-            Tile[,] gameBoard = new Tile[x + 2, y + 2];
-            for (int i = 0; i < gameBoard.GetLength(0); i++) {
-                for (int j = 0; j < gameBoard.GetLength(1); j++) {
-                    gameBoard[i, j] = new NullTile(i, j);
+            Tile[,] board = new Tile[x + 2, y + 2];
+            for (int i = 0; i < board.GetLength(0); i++) {
+                for (int j = 0; j < board.GetLength(1); j++) {
+                    board[i, j] = new NullTile(i, j);
                 }
             }
-            return gameBoard;
+            return board;
         }
 
         public static Tile[,] populateBoard(int bombs, int height, int length) {
@@ -59,7 +59,7 @@ namespace Minesweeper {
                     for (int j = 0; j < gameBoard.GetLength(1); j++) {
                         Tile tile = gameBoard[i, j];
                         sb.Append(tile.getTileType());
-                        sb.Append(",");
+                        sb.Append(',');
                     }
                     sb.Append('\n');
                 }

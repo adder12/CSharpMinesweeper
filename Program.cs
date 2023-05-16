@@ -2,7 +2,7 @@
 using Minesweeper;
 
 namespace main {
-    class main {
+    class  GameLoop {
 
         public static void Main(String[] args) {
             GameBoard game = new GameBoard(5, 5);

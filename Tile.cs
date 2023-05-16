@@ -17,7 +17,7 @@ namespace Minesweeper {
        private int xCoord;
        private int yCoord;
        private int status;
-        private  string tileType;
+        private readonly string tileType;
 
         public int getXCoord() { return this.xCoord; }
         public int getYCoord() { return this.yCoord; }
