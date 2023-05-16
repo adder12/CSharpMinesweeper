@@ -32,7 +32,7 @@ namespace Minesweeper {
 
         public static Tile[,] populateBoard(int bombs, int height, int length) {
             Tile[,] board = generateBoard(height, length);
-            double probability = 10/25;
+            double probability = (double)10/25;
            System.Console.WriteLine(probability);
             var random = new Random();
 
